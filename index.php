@@ -121,7 +121,6 @@ get_header();
                     </div>
                 </div>
             </div>
-            <div class="separator-lg"></div>
         </div>
     </body>
 </html>
