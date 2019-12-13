@@ -11,9 +11,10 @@
 <html <?php language_attributes(); ?>>
     <head>
         <meta charser="<?php bloginfo( 'charset' )?>">
-        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- 同一ディレクトリにあるcssを読み込む -->
-        <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>" />
+        <link rel="stylesheet" href="<?php echo get_stylesheet_uri(); ?>">
+        <script src="<?php echo get_stylesheet_directory_uri()?>/js/script.js" async></script>
         <?php wp_head(); ?>
     </head>
     <body <?php body_class(); ?>>

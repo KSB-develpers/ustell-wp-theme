@@ -54,6 +54,7 @@ a {
     font-size: 100%;
     margin: 0;
     padding: 0;
+    text-decoration: none;
     vertical-align: baseline;
     background: transparent;
 }
@@ -103,13 +104,31 @@ hr {
     --ustell-blue: #86CDF7;
 }
 
+/* 余白のためのcss */
+.separator-lg {
+    /* セクションが変わる時のcss */
+    height: 120px;
+}
+.separator-sml {
+    /* セクション内の余白 */
+    height: 60px;
+}
+.separator-v-sml {
+    height: 30px;
+}
+
+
 html {
     font-size: 16px;
 }
 
+
+
 body {
     margin: 0 auto;
-    font-family: "MS PGothic","Osaka",Arial,sans-serif;
+    font-family: source-han-sans-japanese, sans-serif;
+    font-weight: 100;
+    font-style: normal;
     line-height: 1.4;
     color: #666666;
     max-width: 1440px;
@@ -157,4 +176,180 @@ body {
 
 .nav-contact a {
  color: #FFFFFF;
+}
+
+/* index用のcss */
+.key-visual {
+    width: 100%;
+    height: auto;
+    position: relative;
+}
+
+.key-visual img {
+    width: 100%;
+}
+
+.key-visual-cover {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kv-over-txt {
+    height: auto;
+}
+
+.copy-top {
+    background-color: rgba(999, 999, 999, 0.6);
+    margin: 0 auto;
+    width: fit-content;
+    margin-bottom: 35px;
+}
+
+.copy-top p {
+    text-align: center;
+    padding: 0.4em;
+    font-size: 37px;
+}
+
+.copy-bottom {
+    background-color: rgba(999, 999, 999, 0.6);
+    margin: 0 auto;
+    width: fit-content;
+}
+
+.copy-bottom p {
+    font-size: 58px;
+    padding: 0.1em;
+    text-align: center;
+}
+
+.main-contents {
+    width: auto;
+    height: auto;
+    padding: 0 60px;
+}
+
+.intro-poem {
+    background-color: var(--ustell-orange);
+    width: fit-content;
+    color: #FFFFFF;
+    font-size: 36px;
+    padding: 0.4em;
+}
+
+.about-us {
+    display: flex;
+}
+
+.about-us img {
+    width: 750px;
+    height: 530px;
+    margin: -45px 0 0 45px;
+    z-index: -999;
+}
+
+.about-us-txt {
+    width: 100%;
+    height: fit-content;
+    margin: 90px 0 0 -90px;
+    padding: 23px 45px;
+    border: solid 2px var(--ustell-orange);
+    background-color: rgba(999, 999, 999, 0.85);
+}
+
+/* 見出し用のcss */
+.caption {
+    text-align: center;
+    font-size: 48px;
+}
+
+.services {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.service {
+    width: 27%;
+    height: auto;
+    border: solid 2px var(--ustell-blue);
+    padding: 30px;
+    word-wrap: break-word;
+}
+
+.service img {
+    width: 100%;
+    height: auto;
+}
+
+.service-feature {
+    font-size: 23px;
+    color: var(--ustell-orange);
+    margin: 30px 0 10px 0;
+}
+
+.service-details {
+    line-height: 1.9;
+}
+
+.pg-link-btn {
+    width: 270px;
+    height: auto;
+    margin: 0 auto;
+    padding: 21px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: solid 2px var(--ustell-blue);
+    cursor: pointer;
+}
+
+.pg-link-btn p {
+    font-size: 20px;
+    text-align: center;
+}
+
+/* お知らせの部分のCSS */
+.post-date {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.news {
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin: 0 30px;
+    background-color: var(--ustell-orange);
+}
+
+.news a {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.release {
+    padding: 12px 20px;
+    border-radius: 5px;
+    margin: 0 30px;
+    background-color: var(--ustell-green);
+}
+
+.release a {
+    font-size: 16px;
+    color: #FFFFFF;
+}
+
+.posts-title {
+    color: #666666;
+    font-size: 18px;
+}
+
+.posts-title:hover {
+    color: var(--ustell-orange);
+    transition: color 500ms;
 }
