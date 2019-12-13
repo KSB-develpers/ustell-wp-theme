@@ -11,5 +11,7 @@ wp_footer()
 ?>
 <!DOCTYPE html>
 <html>
-    <body></body>
+    <body>
+
+    </body>
 </html>

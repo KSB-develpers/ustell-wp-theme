@@ -183,6 +183,9 @@ body {
     width: 100%;
     height: auto;
     position: relative;
+    font-family: a-otf-ud-shin-maru-go-pr6n, sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .key-visual img {
@@ -240,6 +243,9 @@ body {
     color: #FFFFFF;
     font-size: 36px;
     padding: 0.4em;
+    font-family: source-han-sans-japanese, sans-serif;
+    font-weight: 300;
+    font-style: normal;
 }
 
 .about-us {
@@ -247,8 +253,8 @@ body {
 }
 
 .about-us img {
-    width: 750px;
-    height: 530px;
+    width: 50%;
+    height: min-content;
     margin: -45px 0 0 45px;
     z-index: -999;
 }
@@ -256,7 +262,7 @@ body {
 .about-us-txt {
     width: 100%;
     height: fit-content;
-    margin: 90px 0 0 -90px;
+    margin: 0 0 0 -60px;
     padding: 23px 45px;
     border: solid 2px var(--ustell-orange);
     background-color: rgba(999, 999, 999, 0.85);
@@ -264,10 +270,14 @@ body {
 
 /* 見出し用のcss */
 .caption {
+    font-family: source-han-sans-japanese, sans-serif;
+    font-weight: 500;
+    font-style: normal;
     text-align: center;
     font-size: 48px;
 }
 
+/* サービスのcss */
 .services {
     width: 100%;
     display: flex;
@@ -275,7 +285,7 @@ body {
 }
 
 .service {
-    width: 27%;
+    width: 290px;
     height: auto;
     border: solid 2px var(--ustell-blue);
     padding: 30px;
@@ -288,7 +298,10 @@ body {
 }
 
 .service-feature {
-    font-size: 23px;
+    font-size: 19px;
+    font-family: source-han-sans-japanese, sans-serif;
+    font-weight: 300;
+    font-style: normal;
     color: var(--ustell-orange);
     margin: 30px 0 10px 0;
 }
@@ -316,8 +329,10 @@ body {
 
 /* お知らせの部分のCSS */
 .post-date {
+    font-family: source-han-sans-japanese, sans-serif;
+    font-weight: 300;
+    font-style: normal;
     font-size: 18px;
-    font-weight: bold;
 }
 
 .news {
@@ -329,6 +344,9 @@ body {
 
 .news a {
     font-size: 16px;
+    font-family: source-han-sans-japanese, sans-serif;
+    font-weight: 300;
+    font-style: normal;
     color: #FFFFFF;
 }
 
@@ -340,6 +358,9 @@ body {
 }
 
 .release a {
+    font-family: source-han-sans-japanese, sans-serif;
+    font-weight: 300;
+    font-style: normal;
     font-size: 16px;
     color: #FFFFFF;
 }
