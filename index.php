@@ -121,6 +121,22 @@ get_header();
                     </div>
                 </div>
             </div>
+            <div class="separator-lg"></div>
+            <div class="contact-card">
+                <p style="font-family: source-han-sans-japanese, sans-serif; font-weight: 300; font-style: normal; font-size: 48px; text-align: center;">まずは、お気軽にお問い合わせください。</p>
+                <!-- リンクになるボタン的な部分は改修する 予定日12:20 -->
+                <div class="pg-link-btn" style="border: solid 2px var(--ustell-green); margin-top: 30px; background-color: #FFFFFF;">
+                    <div>
+                        <p>お問い合わせフォームへ</p>
+                    </div>
+                </div>
+                <!-- リンクになるボタン的な部分は改修する 予定日12/20 -->
+                <div class="pg-link-btn" style="border: solid 2px var(--ustell-green); margin-top: 30px; background-color: var(--ustell-green); color: #FFFFFF;">
+                    <div>
+                        <p>電話してみる</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>

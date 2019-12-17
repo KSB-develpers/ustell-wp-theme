@@ -24,8 +24,8 @@
                 <img src="<?php echo get_stylesheet_directory_uri(); ?>/images/ustell_header_logo.png" />
             </div>
             <div class="header-nav">
-                <a class="nav">ホーム</a>
-                <a class="nav">サービス</a>
+                <a class="nav" href="<?php echo get_stylesheet_directory_uri(); ?>/index.php">ホーム</a>
+                <a class="nav" href="<?php echo get_stylesheet_directory_uri(); ?>/service.php">サービス</a>
                 <a class="nav">ニュースリリース</a>
                 <a class="nav">私たちの思い</a>
                 <a class="nav">会社概要</a>
