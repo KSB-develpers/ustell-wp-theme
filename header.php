@@ -25,7 +25,7 @@
             </div>
             <div class="header-nav">
                 <a class="nav" href="<?php echo home_url( '/' ); ?>/index.php">ホーム</a>
-                <a class="nav" href="<?php echo get_stylesheet_directory_uri(); ?>/pages/service.php">サービス</a>
+                <a class="nav" href="./pages/service.php">サービス</a>
                 <a class="nav">ニュースリリース</a>
                 <a class="nav">私たちの思い</a>
                 <a class="nav">会社概要</a>
